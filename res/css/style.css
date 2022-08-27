@@ -1,0 +1,48 @@
+section#top-nav, .socials-top{
+	background-color: #333333;
+	color: #fff;
+	padding: 5px;
+}
+section#main-nav, nav.bg-grey{
+	background-color: #454545;
+}
+a.active{
+	background-color: #000;
+	border-radius: 20px 60px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+section#heading{
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../imgs/bg0.jpg);
+	height: 60vh;
+	padding-top: 15vh;
+}
+section#contact{
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../imgs/12.jpg);
+	height: 70vh;
+	padding-top: 15vh;
+}
+section#about{
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../imgs/6.jpg);
+	height: 70vh;
+	padding-top: 15vh;
+}
+section#features{
+	background-color: #EBE9E5;
+}
+section#end p{
+	color: #C9C7C5;
+}
+.paragraph{
+width: 500px;		
+}
+@media screen and (max-width: 600px) {
+	section#about{
+		background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../imgs/6.jpg);
+		height: 100vh;
+		padding-top: 15vh;
+	}	
+	.paragraph{
+width: 400px;
+	}
+}
