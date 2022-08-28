@@ -12,39 +12,111 @@ section#heading{
 	height: 60vh;
 	padding-top: 15vh;
 }
+section#heading h1{
+	letter-spacing: 1px;
+}
+section#heading h4{
+	font-weight: 100; 
+	letter-spacing: 3px;
+}
+section#heading button{
+	padding: 6px 20px;	
+	margin-top: 25px;	
+}
 section#contact{
 	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../imgs/12.jpg);
 	height: 70vh;
 	padding-top: 15vh;
 }
+section#contact h1{
+	letter-spacing: 1px;
+}
+section#contact h2{
+	font-size:20px;
+	font-weight: 600;
+}
+section#contact h4{
+	font-weight: 100; 
+	font-size: 20px;
+	max-width: 50%;
+}
+
 section#about{
 	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../imgs/6.jpg);
-	height: 70vh;
+	height: 60vh;
 	padding-top: 15vh;
 }
-section#features{
-	background-color: #EBE9E5;
+section#about h1{
+	letter-spacing: 1px;
 }
-section#end p{
-	color: #C9C7C5;
+section#about h2{
+	font-size:20px;
+	font-weight: 600;
 }
-.paragraph{
-width: 500px;		
+section#about h4{
+	font-weight: 100; 
+	font-size: 20px;
+	max-width: 50%;
 }
-@media screen and (max-width: 1000px) {
+section#about button{
+	padding: 6px 20px;	
+	margin: 5px;
+	padding: 7px 35px;
+}
+
+footer div p{
+	font-size: 15px;
+}
+@media screen and (max-width: 550px) {
 	
 	section#heading{
-		background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../imgs/bg0.jpg) no-repeat;
+		background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../imgs/bg0.jpg);
 		height: 50vh;
 		padding-top: 10vh;
 		text-align: center;
 	}
 	section#heading h1{
 		font-weight: 400;
+		font-size: 30px;
 	}
+	section#heading h4{
+		font-weight: 100; 
+		letter-spacing: 0px;
+		font-size: 20px;
+		
+	}
+
 	section#about{
 		background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../imgs/6.jpg);
-		height: 100vh;
+		height: 50vh;
 		padding-top: 10vh;
+	}
+	section#about h1{
+		font-weight: 400;
+		font-size: 30px;
 	}	
+	section#about h4{
+		font-weight: 100; 
+		letter-spacing: 0px;
+		font-size: 17px;
+		max-width: 100%;
+	}
+	section#contact{
+		background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../imgs/12.jpg);
+		height: 40vh;
+		padding-top: 10vh;
+	}
+	section#contact h1{
+		font-weight: 400;
+		font-size: 30px;
+	}	
+	section#contact h4{
+		font-weight: 100; 
+		letter-spacing: 0px;
+		font-size: 17px;
+		max-width: 100%;
+	}
+	footer{
+		margin-top: 190px;
+	}
 }
